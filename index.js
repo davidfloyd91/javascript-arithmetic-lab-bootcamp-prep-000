@@ -1,17 +1,15 @@
-var number;
-function add(n) {
-  number += n;
-  console.log(number);
+function add(a, b) {
+  return a + b;
 }
-function subtract(n) {
+function subtract(a, b) {
   number -= n;
   console.log(number);
 }
-function multiply(n) {
+function multiply(a, b) {
   number *= n;
   console.log(number);
 }
-function divide(n) {
+function divide(a, b) {
   number /= n;
   console.log(number);
 }
