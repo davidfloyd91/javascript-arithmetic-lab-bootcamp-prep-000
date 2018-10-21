@@ -2,14 +2,11 @@ function add(a, b) {
   return a + b;
 }
 function subtract(a, b) {
-  number -= n;
-  console.log(number);
+  return a - b;
 }
 function multiply(a, b) {
-  number *= n;
-  console.log(number);
+  return a * b;
 }
 function divide(a, b) {
-  number /= n;
-  console.log(number);
+  return a / b;
 }
